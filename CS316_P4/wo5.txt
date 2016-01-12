@@ -1,0 +1,11 @@
+
+Display types of variables:
+
+{a=[int, 2, 1, 100, 1, 100], b=[int, 2, 1, 100, 1, 100], c=[int, 2, 1, 100, 1, 100], i=int, j=int, k=int}
+
+The program has passed type checking.
+
+Display addresses and base addresses:
+
+{a=3, b=10003, c=20003, i=0, j=1, k=2}
+

@@ -1,0 +1,11 @@
+
+Display types of variables:
+
+{a1=[int, 2, 10, 11, -5, -5], a2=[int, 2, -10, -10, 20, 21], x1=int, x2=int}
+
+The program has passed type checking.
+
+Display addresses and base addresses:
+
+{a1=2, a2=4, x1=0, x2=1}
+

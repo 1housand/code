@@ -1,0 +1,21 @@
+int i, fact;
+int[0:10] factorial;
+
+{
+	i = 0;
+	fact = 1;
+	factorial[i] = fact;
+	while (<= i 10)
+	{
+		i = (+ i 1);
+		fact = (* i fact);
+		factorial[i] = fact;
+	}
+
+	i = 0;
+	while (<= i 10)
+	{
+		print factorial[i];
+		i = (+ i 1);
+	}
+}

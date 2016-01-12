@@ -1,0 +1,116 @@
+      push  10
+      pop  #0
+      push  5
+      pop  #1
+      push  20
+      pop  #2
+      push  0.0
+      pop  #3
+      push  -8.0
+      pop  #4
+      push  #0
+      push  #1
+      lt
+      print
+      push  #3
+      push  #4
+      le
+      push  #2
+      push  #0
+      gt
+      and
+      print
+      push  #3
+      push  #4
+      lt
+      push  #2
+      push  #0
+      ge
+      or
+      print
+      push  #3
+      push  #4
+      neq
+      print
+      push  #0
+      push  #1
+      lt
+      ifF goto 1
+      push  123
+      push  -76
+      add
+      pop  #0
+      goto 2
+1:
+      push  #3
+      push  #4
+      le
+      push  #2
+      push  #0
+      gt
+      and
+      ifF goto 3
+      push  7.0
+      push  0.78
+      div
+      push  54.0
+      push  -0.123
+      mul
+      sub
+      pop  #3
+      goto 4
+3:
+      push  #3
+      push  #4
+      lt
+      push  #2
+      push  #0
+      ge
+      or
+      ifF goto 5
+      push  87.54
+      push  500000.0
+      div
+      push  7.0E15
+      push  -8.754E-22
+      mul
+      sub
+      pop  #4
+      goto 6
+5:
+      push  #3
+      push  #4
+      neq
+      ifF goto 7
+      push  8.754E-8
+      push  500000.0
+      div
+      push  -7.0E-12
+      push  8.7101E24
+      mul
+      add
+      pop  #3
+      goto 8
+7:
+      push  -8.754E-8
+      push  500000.0
+      div
+      push  -7.0
+      push  8.7E24
+      mul
+      add
+      pop  #4
+8:
+6:
+4:
+2:
+      push  #0
+      print
+      push  #1
+      print
+      push  #2
+      print
+      push  #3
+      print
+      push  #4
+      print

@@ -1,0 +1,11 @@
+
+Display types of variables:
+
+{a1=int, a2=int, a3=int, x1=float, x3=float}
+
+The program has passed type checking.
+
+Display addresses and base addresses:
+
+{a1=0, a2=1, a3=2, x1=3, x3=4}
+

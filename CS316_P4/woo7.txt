@@ -1,0 +1,144 @@
+      push  10
+      push  20
+      lt
+      print
+      push  10.5
+      push  20
+      lt
+      print
+      push  10
+      push  20.7
+      lt
+      print
+      push  10.3
+      push  20.2
+      lt
+      print
+      push  10
+      push  20
+      le
+      print
+      push  10.5
+      push  20
+      le
+      print
+      push  10
+      push  20.7
+      le
+      print
+      push  10.3
+      push  20.2
+      le
+      print
+      push  10
+      push  20
+      gt
+      print
+      push  10.5
+      push  20
+      gt
+      print
+      push  10
+      push  20.7
+      gt
+      print
+      push  10.3
+      push  20.2
+      gt
+      print
+      push  10
+      push  20
+      ge
+      print
+      push  10.5
+      push  20
+      ge
+      print
+      push  10
+      push  20.7
+      ge
+      print
+      push  10.3
+      push  20.2
+      ge
+      print
+      push  10
+      push  20
+      eq
+      print
+      push  10.5
+      push  20
+      eq
+      print
+      push  10
+      push  20.7
+      eq
+      print
+      push  10.3
+      push  20.2
+      eq
+      print
+      push  10
+      push  10
+      eq
+      print
+      push  10.0
+      push  10
+      eq
+      print
+      push  10
+      push  10.0
+      eq
+      print
+      push  10.0
+      push  10.0
+      eq
+      print
+      push  10
+      push  10
+      neq
+      print
+      push  10.0
+      push  10
+      neq
+      print
+      push  10
+      push  10.0
+      neq
+      print
+      push  10.0
+      push  10.0
+      neq
+      print
+      push  false
+      push  true
+      eq
+      print
+      push  true
+      push  false
+      eq
+      print
+      push  false
+      push  false
+      eq
+      print
+      push  true
+      push  true
+      eq
+      print
+      push  false
+      push  true
+      neq
+      print
+      push  true
+      push  false
+      neq
+      print
+      push  false
+      push  false
+      neq
+      print
+      push  true
+      push  true
+      neq
+      print

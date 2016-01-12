@@ -1,0 +1,19 @@
+int x1, x2;
+int[10:10] a1;
+int[20:20] a2;
+
+
+{
+	x1 = 10;
+	x2 = 20;
+	print x1;
+	print x2;
+	a1[10] = (+ x1 x2);
+	print a1[10];
+	a2[20] = (* x1 a1[10]);
+	print a2[20];
+	print x1;
+	print x2;
+	print a1[10];
+	print a2[20];
+}

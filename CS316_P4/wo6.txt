@@ -1,0 +1,11 @@
+
+Display types of variables:
+
+{fact=int, factorial=[int, 1, 0, 10], i=int}
+
+The program has passed type checking.
+
+Display addresses and base addresses:
+
+{fact=1, factorial=2, i=0}
+

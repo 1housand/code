@@ -1,0 +1,11 @@
+
+Display types of variables:
+
+{i=int}
+
+The program has passed type checking.
+
+Display addresses and base addresses:
+
+{i=0}
+

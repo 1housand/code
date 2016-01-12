@@ -1,0 +1,157 @@
+      push  1
+      pop  #0
+1:
+      push  #0
+      push  100
+      le
+      ifF goto 2
+      push  1
+      pop  #1
+3:
+      push  #1
+      push  100
+      le
+      ifF goto 4
+      push  #0
+      push  #1
+      push  1
+      push  100
+      push  1
+      push  100
+      push  #0
+      push  #1
+      add
+      storeArrayElem  3, 2
+      push  #0
+      push  #1
+      push  1
+      push  100
+      push  1
+      push  100
+      push  #0
+      push  #1
+      sub
+      storeArrayElem  10003, 2
+      push  #1
+      push  1
+      add
+      pop  #1
+      goto 3
+4:
+      push  #0
+      push  1
+      add
+      pop  #0
+      goto 1
+2:
+      push  1
+      pop  #0
+5:
+      push  #0
+      push  100
+      le
+      ifF goto 6
+      push  1
+      pop  #1
+7:
+      push  #1
+      push  100
+      le
+      ifF goto 8
+      push  #0
+      push  #1
+      push  1
+      push  100
+      push  1
+      push  100
+      push  0
+      storeArrayElem  20003, 2
+      push  1
+      pop  #2
+9:
+      push  #2
+      push  100
+      le
+      ifF goto 10
+      push  #0
+      push  #1
+      push  1
+      push  100
+      push  1
+      push  100
+      push  #0
+      push  #1
+      push  1
+      push  100
+      push  1
+      push  100
+      loadArrayElem  20003, 2
+      push  #0
+      push  #2
+      push  1
+      push  100
+      push  1
+      push  100
+      loadArrayElem  3, 2
+      push  #2
+      push  #1
+      push  1
+      push  100
+      push  1
+      push  100
+      loadArrayElem  10003, 2
+      mul
+      add
+      storeArrayElem  20003, 2
+      push  #2
+      push  1
+      add
+      pop  #2
+      goto 9
+10:
+      push  #1
+      push  1
+      add
+      pop  #1
+      goto 7
+8:
+      push  #0
+      push  1
+      add
+      pop  #0
+      goto 5
+6:
+      push  1
+      pop  #0
+11:
+      push  #0
+      push  100
+      le
+      ifF goto 12
+      push  1
+      pop  #1
+13:
+      push  #1
+      push  100
+      le
+      ifF goto 14
+      push  #0
+      push  #1
+      push  1
+      push  100
+      push  1
+      push  100
+      loadArrayElem  20003, 2
+      print
+      push  #1
+      push  1
+      add
+      pop  #1
+      goto 13
+14:
+      push  #0
+      push  1
+      add
+      pop  #0
+      goto 11
+12:

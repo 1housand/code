@@ -1,0 +1,10 @@
+boolean b1, b2, b3;
+
+{
+	b1 = false;
+	b2 = true;
+	b3 = true;
+
+        b1 = (| (! (& b1 b2)) (!= 3 5.6));
+        b2 = (= b1 b3);
+}

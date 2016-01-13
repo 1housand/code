@@ -1,0 +1,158 @@
+0 <program>
+ 1 <var dec list>
+  2 <var dec>
+   3 int
+    4 x1
+    4 x2
+    4 x3
+  2 <var dec>
+   3 <array type>
+    4 int
+    4 <array index declaration>
+     5 <range>
+      6 10
+      6 20
+     5 <range>
+      6 0
+      6 10
+     5 <range>
+      6 -10
+      6 -5
+    4 a1
+    4 a2
+    4 a3
+  2 <var dec>
+   3 float
+    4 y1
+    4 y2
+    4 y3
+  2 <var dec>
+   3 <array type>
+    4 float
+    4 <array index declaration>
+     5 <range>
+      6 10
+      6 20
+     5 <range>
+      6 0
+      6 10
+     5 <range>
+      6 -10
+      6 -5
+    4 b1
+    4 b2
+    4 b3
+  2 <var dec>
+   3 boolean
+    4 c1
+    4 c2
+    4 c3
+  2 <var dec>
+   3 <array type>
+    4 boolean
+    4 <array index declaration>
+     5 <range>
+      6 10
+      6 20
+     5 <range>
+      6 0
+      6 10
+     5 <range>
+      6 -10
+      6 -5
+    4 c1
+    4 c2
+    4 c3
+  2 <var dec>
+   3 int
+    4 i
+    4 j
+    4 k
+ 1 <statement>
+  2 <block>
+   3 <statement>
+    4 <assignment>
+     5 x1
+     5 10
+   3 <statement>
+    4 <assignment>
+     5 x2
+     5 20
+   3 <statement>
+    4 <assignment>
+     5 x3
+     5 +
+      6 x1
+      6 x2
+   3 <statement>
+    4 <assignment>
+     5 i
+     5 10
+   3 <statement>
+    4 <while>
+     5 <=
+      6 i
+      6 20
+     5 <statement>
+      6 <block>
+       7 <statement>
+        8 <assignment>
+         9 j
+         9 0
+       7 <statement>
+        8 <while>
+         9 <=
+          10 j
+          10 10
+         9 <statement>
+          10 <block>
+           11 <statement>
+            12 <assignment>
+             13 k
+             13 -10
+           11 <statement>
+            12 <while>
+             13 <=
+              14 k
+              14 -5
+             13 <statement>
+              14 <block>
+               15 <statement>
+                16 <assignment>
+                 17 <array var>
+                  18 a1
+                  18 <array index>
+                   19 i
+                   19 j
+                   19 k
+                 17 +
+                  18 +
+                   19 i
+                   19 j
+                  18 k
+               15 <statement>
+                16 <print>
+                 17 <array var>
+                  18 a1
+                  18 <array index>
+                   19 i
+                   19 j
+                   19 k
+               15 <statement>
+                16 <assignment>
+                 17 k
+                 17 +
+                  18 k
+                  18 1
+           11 <statement>
+            12 <assignment>
+             13 j
+             13 +
+              14 j
+              14 1
+       7 <statement>
+        8 <assignment>
+         9 i
+         9 +
+          10 i
+          10 1

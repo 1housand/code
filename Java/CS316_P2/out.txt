@@ -1,0 +1,3 @@
+boolean : Syntax Error, unexpected symbol where ; expected
+boolean : Syntax Error, unexpected symbol where id, {, if, while, or print expected
+boolean  -- unexpected symbol
